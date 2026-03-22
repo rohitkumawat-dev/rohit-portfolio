@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: #000;
+    color: #fff;
+}
+
+/* NAVBAR */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 10%;
+    align-items: center;
+}
+
+.logo span {
+    color: #f9c74f;
+}
+
+nav a {
+    margin: 0 15px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #f9c74f;
+}
+
+.btn {
+    background: linear-gradient(45deg, #f9c74f, #f9844a);
+    padding: 10px 20px;
+    border-radius: 25px;
+    color: white;
+    text-decoration: none;
+}
+
+/* SECTION BASE */
+section {
+    min-height: 100vh;
+    padding: 100px 10% 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* 🔥 HOME FIX (MOVE UP) */
+.home {
+    align-items: flex-start;
+    padding-top: 120px;
+}
+
+.home .content {
+    margin-top: 40px; /* control vertical lift */
+}
+
+.home h1 {
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+.home h3 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.home p {
+    margin-bottom: 25px;
+    line-height: 1.6;
+    max-width: 500px;
+}
+
+span {
+    color: #f9c74f;
+}
+
+/* SOCIAL */
+.socials i {
+    font-size: 24px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.socials i:hover {
+    color: #f9c74f;
+}
+
+/* IMAGE */
+.glow-circle {
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    background: radial-gradient(circle, #f9c74f, #f9844a);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 60px #f9c74f;
+}
+
+.glow-circle img {
+    width: 95%;
+    height: 95%;
+    border-radius: 50%;
+    object-fit: cover;
+     background: radial-gradient(circle, #f9c74f, #f9844a);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 60px #f9c74f;
+}
+
+/* 🔥 ABOUT FIX */
+.about {
+    gap: 60px;
+}
+
+.about .content {
+    max-width: 550px;
+}
+
+.about h2 {
+    font-size: 48px;
+}
+
+.about p {
+    margin: 50px 0;
+    font-size: 20px;   /* 🔥 bigger text */
+    line-height: 1.8;
+}
+
+/* 🔥 SKILLS FIX */
+.services {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 150px;
+}
+
+.services h2 {
+    font-size: 42px;
+    margin-bottom: 25px; /* 🔥 reduced gap */
+}
+
+/* FIX GAP ISSUE */
+.cards {
+    display: flex;
+    gap: 30px;
+    margin-top: 10px; /* 🔥 small gap only */
+}
+
+.card {
+    background: #111;
+    padding: 30px;
+    border-radius: 20px;
+    width: 260px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 25px #f9c74f;
+}
+
+.card i {
+    font-size: 40px;
+    margin-bottom: 15px;
+    color: #f9c74f;
+}
+
+.card h3 {
+    margin-bottom: 10px;
+}
