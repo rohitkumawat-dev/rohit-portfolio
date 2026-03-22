@@ -41,7 +41,6 @@ nav a:hover {
     text-decoration: none;
 }
 
-/* SECTION BASE */
 section {
     min-height: 100vh;
     padding: 100px 10% 100px;
@@ -50,14 +49,14 @@ section {
     justify-content: space-between;
 }
 
-/* 🔥 HOME FIX (MOVE UP) */
+
 .home {
     align-items: flex-start;
     padding-top: 120px;
 }
 
 .home .content {
-    margin-top: 40px; /* control vertical lift */
+    margin-top: 40px; 
 }
 
 .home h1 {
@@ -80,7 +79,7 @@ span {
     color: #f9c74f;
 }
 
-/* SOCIAL */
+
 .socials i {
     font-size: 24px;
     margin-right: 15px;
@@ -91,7 +90,7 @@ span {
     color: #f9c74f;
 }
 
-/* IMAGE */
+
 .glow-circle {
     width: 320px;
     height: 320px;
@@ -115,7 +114,6 @@ span {
     box-shadow: 0 0 60px #f9c74f;
 }
 
-/* 🔥 ABOUT FIX */
 .about {
     gap: 60px;
 }
@@ -130,11 +128,10 @@ span {
 
 .about p {
     margin: 50px 0;
-    font-size: 20px;   /* 🔥 bigger text */
+    font-size: 20px;   
     line-height: 1.8;
 }
 
-/* 🔥 SKILLS FIX */
 .services {
     flex-direction: column;
     align-items: center;
@@ -144,15 +141,13 @@ span {
 
 .services h2 {
     font-size: 42px;
-    margin-bottom: 25px; /* 🔥 reduced gap */
+    margin-bottom: 25px; 
 }
 
-/* FIX GAP ISSUE */
 .cards {
     display: flex;
     gap: 30px;
-    margin-top: 10px; /* 🔥 small gap only */
-}
+    margin-top: 10px; 
 
 .card {
     background: #111;
